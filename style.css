@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Raleway;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+/*header*/
+.header-container {
+    background-color: #0f151d;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.logo {
+    font-size: 29px;
+    margin-top: 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*content 1*/
+
+h1 {
+    font-weight: 300;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding: 30px;
+}
+
+.left-content {
+    color: aliceblue;
+    gap: 32px;
+    font-weight: 200;
+}
+
+.desc {
+    margin-top: 20px;
+}
+.image {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.button {
+    color: antiquewhite;
+    padding: 7px 21px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border-color:#ffffff ;
+    border-style: solid;
+    border-width: 0px;
+}
+
+/*Information */
+
+.info-container {
+    background-image: url(https://variety.com/wp-content/uploads/2023/04/GettyImages-824119744.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    color: #e5e7eb; 
+}
+
+.card-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+
+.albums {
+    font-size: 38px; 
+    font-weight: 300;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin-bottom: 60px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+figure img {
+    width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+    object-fit: cover;
+}
+
+/*Qoute Content 2 */
+
+.container-2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-content {
+    width: 80%;
+}
+
+.qoute-content {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+/*Form */
+
+.container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px; /* Use min-height instead of height to prevent shrinking */
+    background-color: #000000;
+    border-radius: 8px;
+    margin: 100px auto; 
+    padding: 0 50px; 
+    gap: 80px;
+    max-width: 1000px; 
+}
+.form-content {
+    color: #ffffff;
+}
+
+.form-button {
+    padding: 16px 32px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: #000000;
+    border-color:  #f7f7f7;
+    border-style: solid;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.form-desc {
+    margin-top: 20px;
+}
+
+.form-text {
+    font-weight: 700px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    color: #f7f7f7;
+    padding: 20px 20px;
+}
